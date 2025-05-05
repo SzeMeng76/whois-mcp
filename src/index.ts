@@ -51,24 +51,24 @@ function registerTools(server: McpServer) {
 
   //TOOL: IP whois lookup
   server.tool(
-    'whois_ip',
-    'Looksup whois information about the IP',
-    { ip: z.string().ip() },
-    async ({ ip }) => {
-      try {
-        const result = await whoisIp(ip);
-        return {
-          content: [{ type: 'text', text: `IP whois lookup for: \n${JSON.stringify(result)}` }],
-        };
-      } catch (err: unknown) {
-        const error = err as Error;
-        return {
-          content: [{ type: 'text', text: `Error: ${error.message}` }],
-          isError: true
-        };
-      }
+  'whois_ip',
+  'Looksup whois information about the IP',
+  { ip: z.string().min(1) }, // 只验证非空
+  async ({ ip }) => {
+    try {
+      const result = await whoisIp(ip);
+      return {
+        content: [{ type: 'text', text: `IP whois lookup for: \n${JSON.stringify(result)}` }],
+      };
+    } catch (err: unknown) {
+      const error = err as Error;
+      return {
+        content: [{ type: 'text', text: `Error: ${error.message}` }],
+        isError: true
+      };
     }
-  );
+  }
+);
 
   //TOOL: ASN whois lookup
   server.tool(
