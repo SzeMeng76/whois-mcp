@@ -50,7 +50,7 @@ In your Cursor IDE
 3. Fill in the form:
    - Name: `Whois Lookup` (or any name you prefer)
    - Type: `command`
-   - Command: `npx -y @mcp-server/whois-mcp@latest`
+   - Command: `npx -y @szemeng76/whois-mcpp@latest`
 
 
 **Installation - Project-specific**
