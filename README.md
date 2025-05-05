@@ -40,7 +40,7 @@ When you perform a WHOIS lookup, you can retrieve details such as:
 Run the MCP server using npx:
 
 ```bash
-npx -y @mcp-server/whois-mcp@latest
+npx -y @szemeng76/whois-mcpp@latest
 ```
 
 In your Cursor IDE
