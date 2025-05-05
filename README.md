@@ -40,7 +40,7 @@ When you perform a WHOIS lookup, you can retrieve details such as:
 Run the MCP server using npx:
 
 ```bash
-npx -y @szemeng76/whois-mcpp@latest
+npx -y @szemeng76/whois-mcp@latest
 ```
 
 In your Cursor IDE
@@ -50,7 +50,7 @@ In your Cursor IDE
 3. Fill in the form:
    - Name: `Whois Lookup` (or any name you prefer)
    - Type: `command`
-   - Command: `npx -y @szemeng76/whois-mcpp@latest`
+   - Command: `npx -y @szemeng76/whois-mcp@latest`
 
 
 **Installation - Project-specific**
@@ -64,7 +64,7 @@ Add an `.cursor/mcp.json` file to your project:
       "command": "npx",
       "args": [
         "-y",
-        "@szemeng76/whois-mcpp@latest"
+        "@szemeng76/whois-mcp@latest"
       ]
     }
   }
