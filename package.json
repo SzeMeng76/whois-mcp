@@ -1,12 +1,12 @@
 {
-  "name": "@mcp-server/whois-mcp",
-  "version": "1.0.1",
+  "name": "@szemeng76/whois-mcp",
+  "version": "1.0.0",
   "description": "MCP to lookup whois information",
   "license": "MIT",
-  "homepage": "https://github.com/modelcontextprotocol-servers/whois-mcp",
+  "homepage": "https://github.com/szemeng76/whois-mcp",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/modelcontextprotocol-servers/whois-mcp.git"
+    "url": "git+https://github.com/szemeng76/whois-mcp.git"
   },
   "type": "module",
   "bin": {
@@ -25,13 +25,13 @@
     "access": "public"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.6.1",
-    "whoiser": "2.0.0-beta.3",
-    "zod": "^3.24.2"
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "whoiser": "2.0.0-beta.5",
+    "zod": "^3.24.4"
   },
   "devDependencies": {
-    "@types/node": "^20.11.24",
-    "shx": "^0.3.4",
-    "typescript": "^5.3.3"
+    "@types/node": "^22.15.3",
+    "shx": "^0.4.0",
+    "typescript": "^5.8.3"
   }
 }
