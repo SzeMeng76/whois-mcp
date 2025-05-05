@@ -64,7 +64,7 @@ Add an `.cursor/mcp.json` file to your project:
       "command": "npx",
       "args": [
         "-y",
-        "@mcp-server/whois-mcp@latest"
+        "@szemeng76/whois-mcpp@latest"
       ]
     }
   }
@@ -89,7 +89,7 @@ Access the MCP settings by clicking "Edit MCP Settings" in Roo Code settings or 
       "command": "npx",
       "args": [
         "-y",
-        "@mcp-server/whois-mcp@latest"
+        "@szemeng76/whois-mcp@latest"
       ]
     }
   }
